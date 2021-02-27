@@ -41,7 +41,7 @@
   color: #000000;
 }
 .dark-logo {
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 
 /* ============END COMPONENTS==============*/
@@ -93,12 +93,15 @@
 /* =========END HEADER========= */
 
 /* =========HERO========= */
+.hero {
+  background: #2f303a;
+}
 .hero-title {
   font-family: var(--main-font);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 
 .modal-btn {
@@ -154,6 +157,9 @@
 
 /* ========= END OUR TEAM========= */
 /* ==========CONTACTS==========*/
+.footer-info {
+  background: #2f303a;
+}
 .contact {
   font-style: normal;
 }
@@ -162,13 +168,13 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  /* color: rgba(255, 255, 255, 1); */
+  color: rgba(255, 255, 255, 1);
 }
 .footer-contact {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  /* color: #ffffff99; */
+  color: #ffffff99;
 }
 /* ==========END CONTACTS==========*/
