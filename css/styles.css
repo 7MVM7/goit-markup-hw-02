@@ -44,11 +44,9 @@
 .dark-logo {
   color: #ffffff;
 }
-
 .active-element {
   color: var(--accent-color);
 }
-
 /* ============END COMPONENTS==============*/
 
 /* ========================STYLES INDEX.HTML========================= */
@@ -204,6 +202,9 @@
 
 /* ==============================PORTFOLIO============================== */
 /* =====================HEADER===================== */
+.active-element {
+  color: var(--accent-color);
+}
 
 /* =====================END HEADER===================== */
 
