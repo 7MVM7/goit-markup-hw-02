@@ -45,8 +45,11 @@
 }
 
 /* ============END COMPONENTS==============*/
+
+/* ========================STYLES INDEX.HTML========================= */
 /* ================BODY============= */
 .page {
+  font-family: var(--main-font);
   background: #ffffff;
 }
 /* ================END BODY============= */
@@ -189,6 +192,9 @@
   color: #ffffff99;
 }
 /* ==========END CONTACTS==========*/
-.portcol {
+/* ========================END STYLES INDEX.HTML========================= */
+
+/* ==============================PORTFOLIO============================== */
+.active-element {
   color: var(--accent-color);
 }
