@@ -45,6 +45,10 @@
   color: #ffffff;
 }
 
+.active-element {
+  color: var(--accent-color);
+}
+
 /* ============END COMPONENTS==============*/
 
 /* ========================STYLES INDEX.HTML========================= */
@@ -119,6 +123,9 @@
   line-height: 1.87;
   color: #ffffff;
   background-color: var(--accent-color);
+}
+.modal-btn {
+  cursor: pointer;
 }
 
 /* =========END HERO========= */
@@ -197,9 +204,6 @@
 
 /* ==============================PORTFOLIO============================== */
 /* =====================HEADER===================== */
-.active-element {
-  color: var(--accent-color);
-}
 
 /* =====================END HEADER===================== */
 
