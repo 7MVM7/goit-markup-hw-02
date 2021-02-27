@@ -45,6 +45,11 @@
 }
 
 /* ============END COMPONENTS==============*/
+/* ================BODY============= */
+.page {
+  background: #ffffff;
+}
+/* ================END BODY============= */
 
 /* =========HEADER========= */
 
@@ -54,7 +59,6 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
   color: #212121;
 }
 
@@ -116,6 +120,8 @@
 /* =========END HERO========= */
 
 /* =========ADVANTAGES======= */
+.advantages {
+}
 .features-title {
   font-family: var(--main-font);
   font-weight: 700;
@@ -136,10 +142,15 @@
 /*======= END ADVANTAGES===== */
 
 /* ========ABOUT======== */
+.about {
+}
 
 /* ========END ABOUT======= */
 
 /* =========OUR TEAM========= */
+.our-team {
+  background: #f5f4fa;
+}
 .workers-name {
   font-family: var(--main-font);
   font-weight: 500;
@@ -178,3 +189,6 @@
   color: #ffffff99;
 }
 /* ==========END CONTACTS==========*/
+.portcol {
+  color: var(--accent-color);
+}
