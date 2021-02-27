@@ -13,6 +13,7 @@
 .link {
   text-decoration: none;
 }
+
 .title {
   font-family: var(--main-font);
   font-weight: 700;
@@ -44,9 +45,7 @@
 .dark-logo {
   color: #ffffff;
 }
-.active-element {
-  color: var(--accent-color);
-}
+
 /* ============END COMPONENTS==============*/
 
 /* ========================STYLES INDEX.HTML========================= */
@@ -72,6 +71,7 @@
 .nav-link:focus {
   color: var(--accent-color);
 }
+
 .mail-link-head {
   font-family: var(--main-font);
   font-weight: 500;
@@ -201,12 +201,12 @@
 /* ========================END STYLES INDEX.HTML========================= */
 
 /* ==============================PORTFOLIO============================== */
-/* =====================HEADER===================== */
+/* =====================HEADER PORTFOLIO===================== */
+/* =====================active element відповідає за підсвітку силок================*/
 .active-element {
   color: var(--accent-color);
 }
-
-/* =====================END HEADER===================== */
+/* =====================END HEADER PORTFOLIO===================== */
 
 /* =================MAIN SEACTION====================== */
 .filters {
