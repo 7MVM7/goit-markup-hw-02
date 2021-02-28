@@ -4,6 +4,11 @@
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
   --secondary-color: #212121;
+  --white-color: #ffffff;
+  --shade-white:
+
+  --black-color: #000000;
+  --gray-color: #757575;
 }
 
 .list {
@@ -22,7 +27,7 @@
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--secondary-color);
 }
 
 .logo-color {
@@ -37,13 +42,13 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: #000000;
+  color: var(--black-color);
 }
 .white-logo {
-  color: #000000;
+  color: var(--black-color);
 }
 .dark-logo {
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 /* ============END COMPONENTS==============*/
@@ -52,7 +57,7 @@
 /* ================BODY============= */
 .page {
   font-family: var(--main-font);
-  background: #ffffff;
+  background: var(--white-color);
 }
 /* ================END BODY============= */
 
@@ -64,7 +69,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--secondary-color);
 }
 
 .nav-link:hover,
@@ -79,7 +84,7 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--gray-color);
 }
 
 .mail-link-head:hover,
@@ -93,7 +98,7 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--gray-color);
 }
 .tel-link-head:hover,
 .tel-link-head:focus {
@@ -111,7 +116,7 @@
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .modal-btn {
@@ -119,7 +124,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  color: #ffffff;
+  color: var(--white-color);
   background-color: var(--accent-color);
 }
 .modal-btn {
@@ -138,14 +143,14 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--secondary-color);
 }
 .features-paragraph {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  color: #757575;
+  color: var(--gray-color);
 }
 
 /*======= END ADVANTAGES===== */
@@ -165,14 +170,14 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  color: #212121;
+  color: var(--secondary-color);
 }
 .position {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
-  color: #757575;
+  color: var(--gray-color);
 }
 
 /* ========= END OUR TEAM========= */
@@ -188,7 +193,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  color: rgba(255, 255, 255, 1);
+  color: var(--white-color);
 }
 .footer-contact {
   font-family: var(--main-font);
@@ -210,10 +215,6 @@
 
 /* =================MAIN SEACTION====================== */
 .filters {
-  font-family: var(--main-font);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
   color: var(--secondary-color);
 }
 .filters:hover,
@@ -236,7 +237,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  color: #757575;
+  color: var(--gray-color);
 }
 
 /* =================END MAIN SEACTION===================*/ ;
