@@ -214,6 +214,7 @@
 /* =================MAIN SEACTION====================== */
 .filters {
   color: var(--secondary-color);
+  background: #f5f4fa;
 }
 .filters:hover,
 .filters:focus {
